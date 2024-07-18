@@ -1,0 +1,128 @@
+.fonts h3{
+    font-size: 15px;
+}
+.fonts p {
+font-size: 8px;
+}
+/*Ho centrato il contenitore della Row perché se lo mettevo nel carb-body mi dava problemi */
+.row{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-body{
+   padding: 10px;
+    transition: 0.3s;
+   
+}
+.card-body:hover{
+    transform: scale(1.2);
+}
+section{
+    background-image: url(../assets/home.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+}
+
+#titolo{
+    height: 70vh;
+}
+
+
+.title{
+    font-size: 100px;
+}
+
+.btnhead {
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+}
+.form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 70vh;
+
+}
+.inForm{
+   background-color: white;
+   width: 650px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+.button{
+    border-radius: 80%;   
+    padding:  8px;
+    font-size: 20px;
+    margin: 15px;
+    background-color: #a02929;
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+    border: 0px solid transparent;
+    border-radius: 50px;
+  }
+  
+input{
+    
+}
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 400;
+}
+
+ion-icon {
+    color: white;
+    line-height: 0px;
+}
+
+a.globe ion-icon {
+    width: 16px;
+    height: 16px;
+}
+
+a.menu ion-icon {
+    width: 22px;
+    height: 22px;
+    color: grey;
+}
+
+a.user ion-icon {
+    width: 28px;
+    height: 28px;
+    color: grey;
+}
+
+.white {
+    color:white;
+}
+
+.grey {
+    color: grey!important;
+}
